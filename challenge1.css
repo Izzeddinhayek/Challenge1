@@ -1,0 +1,68 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #c5c5c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  'Open Sans', sans-serif;
+}
+
+hr {    
+    border: 0.5px solid #eeeeee;
+}
+
+h3 {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -5%;
+}
+
+.sec{
+    background-color: #8132a3;
+    width: 250px;
+    height: 10px;
+    border-radius: 3px 3px 0px 0px;
+    
+    
+}
+
+.card {
+    margin-top: 65%;
+    max-width: 250px;
+    max-height: fit-content;
+    background-color: #ffffff;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;  
+}
+
+.info {
+    margin-left: 8%;
+}
+
+img{
+    width: 50% ;
+    height: 125px;
+    background-color: #ffffff;
+    border-radius:50%;
+    box-shadow:  0 0 0 3px #eeeeee;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
